@@ -1043,8 +1043,6 @@
   
     }
   
-  
-  
     /**
      * REUSED STYLE
      */
@@ -1401,4 +1399,62 @@
   
   .dark-mode-resistant {
     color: #000 !important;
+  }
+
+  /* Center align content within the author section */
+  .authors {
+    text-align: center;
+    padding-top: 200px; /* Adjust top padding as needed */
+    padding-bottom: 60px; /* Adjust bottom padding as needed */
+  }
+
+  /* Style for each author card */
+  .author-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Set background to transparent */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center; /* Align text to the center */
+  }
+
+  .author-image {
+    display: block;
+    width: 120px; /* Adjust image width */
+    height: 120px; /* Adjust image height */
+    border-radius: 50%; /* Ensure the image is circular */
+    overflow: hidden;
+    margin: 0 auto; /* Center align image horizontally */
+    border: 2px solid #ccc; /* Thin gray border around the image */
+  }
+
+  .author-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ensure the image inside the circular frame */
+  }
+
+  .author-name {
+    font-size: 1.5rem;
+    color: #fff; /* White text color */
+    margin-bottom: 10px;
+  }
+
+  .author-posts-count {
+    color: #ccc; /* Light gray text color */
+    margin-bottom: 8px;
+  }
+
+  .author-description {
+    line-height: 1.6;
+    color: #ccc; /* Light gray text color */
+  }
+
+  /* Adjust spacing between navbar and author section */
+  .navbar {
+    margin-bottom: 20px;
   }

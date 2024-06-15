@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>About</title>
+  <meta name="title" content="Almufid - Perosonal Blog Website">
+  <meta name="description" content="This is a website blog made by Almufid">
+
+  <meta name="keywords" content="Portofolio pribadi, Blogs, Website portofolio pribadi, Portofolio kreatif, Portofolio profesional, Portofolio pribadi Rodhi Faisal Mufid, Portofolio pengembang, Desain UI portofolio pribadi, Kode sumber portofolio pribadi, Portofolio pribadi menggunakan html, css, javascript">
+  <link rel="canonical" href="https://almufid.tech">
+  <meta name="author" content="Rodhi Faisal Mufid">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo-almufid.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+
+<a href="https://wa.me/6285266745599?text=Halo%20kak,%20mau%20tanya%20sesuatu%20dong..." class="whatsapp-icon" onclick="showMessage()">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-almufid.png" width="119" height="37" alt="Almufid logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-almufid.png" width="119" height="37" alt="Almufid logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>
+              <i class="fas fa-home"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="navbar-link hover-1" data-nav-toggler>
+              <i class="fas fa-info-circle"></i> About
+            </a>
+          </li>
+          <li>
+            <a href="authors.html" class="navbar-link hover-1" data-nav-toggler>
+              <i class="fas fa-users"></i> Authors
+            </a>
+          </li>
+          <li>
+            <a href="blogs.html" class="navbar-link hover-1" data-nav-toggler>
+              <i class="fas fa-newspaper"></i> Blog
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="navbar-link hover-1" data-nav-toggler>
+              <i class="fas fa-envelope"></i> Contact
+            </a>
+          </li>
+        </ul>              
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Welcome to My World!</p>
+
+              <p class="card-subtitle">
+                We have 4 Features
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="./author/mufid/index.html" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="https://heroic.web.id/" class="navbar-bottom-link hover-1">Learn</a>
+            </li>
+
+            <li>
+              <a href="#recent" class="navbar-bottom-link hover-1">Recent Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="copyright-text">
+          © Copyright 2024. Almufid Official
+        </p>
+
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="headline headline-1 section-title">
+                About
+            </h1>
+
+            <div class="hero-banner">
+
+                <img src="./assets/images/hero.png" width="327" height="490" alt="Almufid Official" class="w-100">
+    
+                <img src="./assets/images/logo-almufid.png" width="27" height="26" alt="shape" class="shape shape-1">
+    
+                <img src="./assets/images/logo-almufid.png" width="27" height="26" alt="shape" class="shape shape-2">
+    
+            </div>
+            <p class="hero-text">
+                Hello, I'm Mufid. I specialize in Informatics Engineering and work as a Back-end Developer, Front-end Developer, 
+                Teacher, Founder, Freelancer, and Blogger. My interests span Education, Technology, Self-Development, Lifestyle, AI, and Programming.
+            </p>
+            <p class="hero-text">
+                Welcome to my blog, which I've created to share my stories and experiences. I hope you find enjoyment and inspiration here. 
+                By the way, I'm Indonesian, so please forgive any mistakes you may find in my writing. Here's a simple quote from me:
+            </p>
+            <p class="hero-text">
+                Writing is my way of expressing thoughts and sharing inspiration with others.
+            </p>
+            <blockquote class="hero-text">
+                <p>
+                    This is simple quote from me: <strong>&ldquo;</strong>If you cannot fly, then run, adventure, dream high, and keep learning. Truly, good knowledge is the one that benefits.<strong>&rdquo;</strong>
+                </p>
+            </blockquote>            
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Populer</span>
+          </h2>
+
+          <p class="section-text">
+            Featured articles
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/articles/html-for-beginner.png" width="1602" height="903" loading="lazy"
+                    alt="HTML Beginner" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Programming</a>
+
+                      <a href="#" class="span hover-2">#Technology</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">4 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Learn HTML for Beginner in 5 minutes
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Rodhi FM</p>
+
+                        <p class="card-subtitle">25 Nov 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/articles/channel.jpeg" width="1602" height="903" loading="lazy"
+                    alt="Link Grup Whatsapp" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Education</a>
+
+                      <a href="#" class="span hover-2">#Technology</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">8 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                        Menjelajahi Dunia Teknologi: Edukasi dan Inovasi
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Rodhi FM</p>
+
+                        <p class="card-subtitle">25 Desember 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/articles/jasaweb.png" width="1602" height="903" loading="lazy"
+                    alt="Jasa Web Murah" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Technology</a>
+
+                      <a href="#" class="span hover-2">#Discount</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                        Menuju Sukses Online: Promo Jasa Website dengan Heroic Website
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/heroic.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Heroic Website</p>
+
+                        <p class="card-subtitle">25 Juni 2024</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/articles/muana.png" width="1602" height="903" loading="lazy"
+                    alt="Muana Bimbel" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Education</a>
+
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">2 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Teknologi dan Pendidikan di Era Digital: Merajut Masa Depan
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Rodhi FM</p>
+
+                        <p class="card-subtitle">21 September 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/articles/step-html.png" width="1602" height="903" loading="lazy"
+                    alt="Step to learn HTML" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Programming</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">5 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Pemrograman untuk semua: Belajar HTML, CSS, JavaScript, and Framework dari Nol
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Rodhi FM</p>
+
+                        <p class="card-subtitle">16 Februari 2024</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Articles</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/author.png" width="119" height="37" loading="lazy" alt="Almufid logo">
+            </a>
+
+            <p class="footer-text">
+                Hi people, Almufid here, a dreamer from Indonesia. I'm currently dreaming and planning for the future to change the world through education and technology.
+            </p>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Education</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Technology</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">AI</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Programming</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Promotion</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Lifestyle</a>
+              </li>
+
+            </ul>
+            <br />
+            <p class="footer-list-title">Security</p>
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Disclaimer</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Term & Conditions</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Sitemap</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; 2024. <a href="#" class="copyright-link">Almufid Official.</a>  All rights reserved.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://x.com/themufiddev" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://linkedin.com/in/rodhifaisalmufid" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/themufiddev" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
