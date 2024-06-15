@@ -26,7 +26,9 @@
     --bg-prussian-blue: hsla(216, 33%, 20%, 1);
     --bg-oxford-blue: hsla(222, 44%, 13%, 1);
     --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
-  
+    --bg-dark-blue: hsla(220, 43%, 10%, 1);
+    --bg-light-blue: hsla(200, 85%, 85%, 1);
+
     /** Text colors */
     --text-white: hsla(0, 0%, 100%, 1);
     --text-alice-blue: hsla(216, 100%, 95%, 1);
@@ -35,12 +37,16 @@
     --text-carolina-blue: hsla(199, 89%, 49%, 1);
     --text-shadow-blue: hsla(217, 24%, 59%, 1);
     --text-slate-gray: hsla(217, 17%, 48%, 1);
-  
+    --text-gray: hsla(0, 0%, 70%, 1);
+    --text-dark-blue: hsla(220, 43%, 10%, 1);
+
     /** Gradient colors */
     --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
     --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
     --gradient-3: linear-gradient(0deg, #000d1a, transparent);
-  
+    --gradient-4: linear-gradient(135deg, #4e54c8, #8f94fb);
+    --gradient-5: linear-gradient(90deg, #b24592, #f15f79, #fcc582);
+    
     /** Border colors */
     --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
     --border-prussian-blue: hsla(216, 33%, 20%, 1);
@@ -191,7 +197,31 @@
   }
   
   
+  /*-----------------------------------*\
+    #Whatsapp mode
+  \*-----------------------------------*/
   
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999; 
+    background-color: green; 
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .whatsapp-icon:hover {
+    background-color: darkgreen; 
+    transform: scale(1.1); 
+  }
   
   
   /*-----------------------------------*\
@@ -1337,4 +1367,38 @@
       padding-inline: 120px;
     }
   
+  }
+
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode-toggle {
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    z-index: 9999;
+    background-color: #00445A;
+    color: #fff;
+    border: none;
+    border-radius: 90%;
+    width: 50px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(5, 15, 132, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+  
+  .dark-mode-resistant {
+    color: #000 !important;
   }

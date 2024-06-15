@@ -111,3 +111,28 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+function toggleDarkMode() {
+  const body = document.body;
+  const darkIcon = document.getElementById('dark-icon');
+  
+  if (body.classList.contains('dark-mode')) {
+    body.classList.remove('dark-mode');
+    darkIcon.classList.remove('fa-sun');
+    darkIcon.classList.add('fa-moon');
+    // Reset background and text colors to light mode
+    body.style.backgroundColor = 'var(--bg-oxford-blue-2)';
+    body.style.color = 'var(--text-shadow-blue)';
+  } else {
+    body.classList.add('dark-mode');
+    darkIcon.classList.remove('fa-moon');
+    darkIcon.classList.add('fa-sun');
+    // Apply dark mode colors
+    body.style.backgroundColor = 'var(--bg-prussian-blue)';
+    body.style.color = 'var(--text-alice-blue)';
+  }
+}
+
+
+
+

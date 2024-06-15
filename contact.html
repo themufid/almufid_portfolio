@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Almufid Blogs</title>
+  <meta name="title" content="Almufid - Perosonal Blog Website">
+  <meta name="description" content="This is a website blog made by Almufid">
+
+  <meta name="keywords" content="Portofolio pribadi, Blogs, Website portofolio pribadi, Portofolio kreatif, Portofolio profesional, Portofolio pribadi Rodhi Faisal Mufid, Portofolio pengembang, Desain UI portofolio pribadi, Kode sumber portofolio pribadi, Portofolio pribadi menggunakan html, css, javascript">
+  <link rel="canonical" href="https://almufid.tech">
+  <meta name="author" content="Rodhi Faisal Mufid">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo-almufid.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<div class="dark-mode-toggle" onclick="toggleDarkMode()">
+  <i id="dark-icon" class="fas fa-moon"></i>
+</div>
+
+<a href="https://wa.me/6285266745599?text=Halo%20kak,%20mau%20tanya%20sesuatu%20dong..." class="whatsapp-icon" onclick="showMessage()">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-almufid.png" width="119" height="37" alt="Almufid logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-almufid.png" width="119" height="37" alt="Almufid logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>
+                <i class="fas fa-home"></i> Home
+            </a>
+          </li>
+   
+          <li>
+            <a href="contact.html" class="navbar-link hover-1" data-nav-toggler>
+                <i class="fas fa-phone"></i> Contact
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Mufid !</p>
+
+              <p class="card-subtitle">
+                You have 5 new messages
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="./author/mufid/index.html" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="https://heroic.web.id/" class="navbar-bottom-link hover-1">Services</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2024 © Almufid Official - Personal Blog by <Ri:a>Rodhi FM</Ri:a>
+        </p>
+
+      </nav>
+
+      <a href="wa.me/6285266745599" class="btn btn-primary">Contact</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-almufid.png" width="119" height="37" loading="lazy" alt="Almufid logo">
+            </a>
+
+            <p class="footer-list-title">CONTACT</p>
+
+            <address class="footer-text address">
+                
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Get In Touch!</p>
+
+            <p class="footer-text">
+                Initiate contact to begin discussing potential partnerships or inquiries.<br>
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="https://wa.me/6285266745599" class="btn btn-primary">
+              <span class="span">Send a Message</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; 2024. <a href="#" class="copyright-link">Almufid Official.</a>  All rights reserved.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://x.com/themufiddev" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://linkedin.com/in/rodhifaisalmufid" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/themufiddev" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
