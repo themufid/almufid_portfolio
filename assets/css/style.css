@@ -448,6 +448,7 @@
   }
   
   .navbar-bottom-link {
+    color: var(--text-alice-blue);
     font-size: var(--fontSize-6);
     padding-block: 6px;
   }
