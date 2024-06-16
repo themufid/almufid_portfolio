@@ -12,31 +12,31 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/about.html'));
+  res.sendFile(path.join(__dirname, './about.html'));
 });
 
 app.get('/authors', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/authors.html'));
+  res.sendFile(path.join(__dirname, './authors.html'));
 });
 
 app.get('/blogs', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/blogs.html'));
+  res.sendFile(path.join(__dirname, './blogs.html'));
 });
 
 app.get('/contact', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/contact.html'));
+  res.sendFile(path.join(__dirname, './contact.html'));
 });
 
 app.get('/account/login', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/account/login.html'));
+  res.sendFile(path.join(__dirname, './account/login.html'));
 });
 
 app.get('/author/mufid', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/assets/author/mufid/index.html'));
+  res.sendFile(path.join(__dirname, './author/mufid/index.html'));
 });
 
 app.get('/learning/learn', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/assets/learning/learn.html'));
+  res.sendFile(path.join(__dirname, './learning/learn.html'));
 });
 
 // Menangani permintaan yang tidak ditemukan
