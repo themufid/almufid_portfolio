@@ -8,7 +8,7 @@ app.use('/assets', express.static(path.join(__dirname, './assets')));
 
 // Rute untuk halaman HTML
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../almufid_portfolio/index.html'));
+  res.sendFile(path.join(__dirname, './index.html'));
 });
 
 app.get('/about', (req, res) => {
