@@ -32,7 +32,7 @@ app.get('/account/login', (req, res) => {
 });
 
 app.get('/author/mufid', (req, res) => {
-  res.sendFile(path.join(__dirname, './author/mufid/index.html'));
+  res.sendFile(path.join(__dirname, '../almufid_portfolio/author/mufid/index.html'));
 });
 
 app.get('/learning/learn', (req, res) => {
